@@ -1,0 +1,158 @@
+/* 
+#result {
+    height: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #FFFF99;
+}
+
+#country {
+    padding: 3px;
+    border: 1px #CCC solid;
+    font-size: 17px;
+}
+
+.suggestionsBox {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    margin: 26px 0px 0px 0px;
+    width: 200px;
+    padding: 0px;
+    background-color: #000;
+    border-top: 3px solid #000;
+    color: #fff;
+}
+
+.suggestionList {
+    margin: 0px;
+    padding: 0px;
+}
+
+.suggestionList ul li {
+    list-style: none;
+    margin: 0px;
+    padding: 6px;
+    border-bottom: 1px dotted #666;
+    cursor: pointer;
+}
+
+.suggestionList ul li:hover {
+    background-color: #FC3;
+    color: #000;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FFF;
+    padding: 0;
+    margin: 0;
+}
+
+.load {
+    background-image: url(loader.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#suggest {
+    position: relative;
+}
+
+body {
+    font-size: 12px;
+    font-family: Tahoma;
+    margin: 0px auto;
+    padding: 0px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #FF0000;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FF9900;
+}
+
+ul {
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+    list-style: square;
+}
+
+li {
+    padding-left: 15px;
+    padding: 0px 15px 0px 5px;
+}
+
+input,
+select {
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: #FF9900;
+}
+
+input,
+button {
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: #FF9900;
+}
+
+button:hover {
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: #FF3300;
+    cursor: pointer;
+}
+ */
+
+ @media (max-width: 575.98px) {
+    #login{
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+ }
+
+ /* // `md` applies to small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+    #login {
+            display: flex;
+            flex-direction: column;
+        }
+                
+ }
+
+ /* // `lg` applies to medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
+    #login {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+               
+                 
+ }
+
+ /* // `xl` applies to large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) {
+    #login {
+            display: flex;
+            flex-direction: col;
+        }
+
+                
+ }
+
+
+
+ 
